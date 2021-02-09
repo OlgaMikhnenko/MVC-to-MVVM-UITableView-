@@ -16,6 +16,8 @@
 		A863FE7025D28BD300C74AE3 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A863FE6F25D28BD300C74AE3 /* Profile.swift */; };
 		A863FE7425D28C2D00C74AE3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A863FE7325D28C2D00C74AE3 /* TableViewController.swift */; };
 		A863FE7725D28D7900C74AE3 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A863FE7625D28D7900C74AE3 /* TableViewCell.swift */; };
+		A863FE8125D292FE00C74AE3 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A863FE8025D292FE00C74AE3 /* ViewModel.swift */; };
+		A863FE8425D293A700C74AE3 /* TableViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A863FE8325D293A700C74AE3 /* TableViewModelType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		A863FE6F25D28BD300C74AE3 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		A863FE7325D28C2D00C74AE3 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		A863FE7625D28D7900C74AE3 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		A863FE8025D292FE00C74AE3 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		A863FE8325D293A700C74AE3 /* TableViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModelType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,10 @@
 		A863FE5625D287C400C74AE3 /* MVC to MVVM (UITableView) */ = {
 			isa = PBXGroup;
 			children = (
+				A863FE7925D28E2500C74AE3 /* Model */,
+				A863FE7B25D28E4200C74AE3 /* View */,
+				A863FE7F25D2929200C74AE3 /* ViewModel */,
+				A863FE7E25D2927200C74AE3 /* Protocols */,
 				A863FE5725D287C400C74AE3 /* AppDelegate.swift */,
 				A863FE5925D287C400C74AE3 /* SceneDelegate.swift */,
 				A863FE5D25D287C400C74AE3 /* Main.storyboard */,
@@ -69,9 +77,6 @@
 				A863FE6525D287C800C74AE3 /* LaunchScreen.storyboard */,
 				A863FE6825D287C800C74AE3 /* Info.plist */,
 				A863FE6025D287C400C74AE3 /* MVC_to_MVVM__UITableView_.xcdatamodeld */,
-				A863FE7B25D28E4200C74AE3 /* View */,
-				A863FE7925D28E2500C74AE3 /* Model */,
-				A863FE7325D28C2D00C74AE3 /* TableViewController.swift */,
 			);
 			path = "MVC to MVVM (UITableView)";
 			sourceTree = "<group>";
@@ -87,9 +92,26 @@
 		A863FE7B25D28E4200C74AE3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A863FE7325D28C2D00C74AE3 /* TableViewController.swift */,
 				A863FE7625D28D7900C74AE3 /* TableViewCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		A863FE7E25D2927200C74AE3 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A863FE8325D293A700C74AE3 /* TableViewModelType.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		A863FE7F25D2929200C74AE3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A863FE8025D292FE00C74AE3 /* ViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,11 +185,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A863FE7025D28BD300C74AE3 /* Profile.swift in Sources */,
+				A863FE8425D293A700C74AE3 /* TableViewModelType.swift in Sources */,
 				A863FE6225D287C400C74AE3 /* MVC_to_MVVM__UITableView_.xcdatamodeld in Sources */,
 				A863FE5825D287C400C74AE3 /* AppDelegate.swift in Sources */,
 				A863FE7725D28D7900C74AE3 /* TableViewCell.swift in Sources */,
 				A863FE7425D28C2D00C74AE3 /* TableViewController.swift in Sources */,
 				A863FE5A25D287C400C74AE3 /* SceneDelegate.swift in Sources */,
+				A863FE8125D292FE00C74AE3 /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
