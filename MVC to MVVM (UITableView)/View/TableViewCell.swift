@@ -23,5 +23,13 @@ class TableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
+    weak var viewModel : TableViewCellViewModelType?{
+        willSet(viewModel){
+            guard let viewModel = viewModel else { return }
+            fullName.text = viewModel.fullName
+            age.text = viewModel.age
+        }
+    }
 
 }
