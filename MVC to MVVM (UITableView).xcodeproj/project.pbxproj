@@ -23,6 +23,7 @@
 		A863FE9725D3B61D00C74AE3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A863FE9625D3B61D00C74AE3 /* DetailViewController.swift */; };
 		A863FE9A25D3B6ED00C74AE3 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A863FE9925D3B6ED00C74AE3 /* DetailViewModel.swift */; };
 		A863FE9D25D3B71D00C74AE3 /* DetailViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A863FE9C25D3B71D00C74AE3 /* DetailViewModelType.swift */; };
+		A863FEA025D3E25000C74AE3 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = A863FE9F25D3E25000C74AE3 /* Box.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		A863FE9625D3B61D00C74AE3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		A863FE9925D3B6ED00C74AE3 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		A863FE9C25D3B71D00C74AE3 /* DetailViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModelType.swift; sourceTree = "<group>"; };
+		A863FE9F25D3E25000C74AE3 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 		A863FE5625D287C400C74AE3 /* MVC to MVVM (UITableView) */ = {
 			isa = PBXGroup;
 			children = (
+				A863FE9F25D3E25000C74AE3 /* Box.swift */,
 				A863FE7925D28E2500C74AE3 /* Model */,
 				A863FE7B25D28E4200C74AE3 /* View */,
 				A863FE7F25D2929200C74AE3 /* ViewModel */,
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A863FE9725D3B61D00C74AE3 /* DetailViewController.swift in Sources */,
+				A863FEA025D3E25000C74AE3 /* Box.swift in Sources */,
 				A863FE7025D28BD300C74AE3 /* Profile.swift in Sources */,
 				A863FE8425D293A700C74AE3 /* TableViewViewModelType.swift in Sources */,
 				A863FE6225D287C400C74AE3 /* MVC_to_MVVM__UITableView_.xcdatamodeld in Sources */,

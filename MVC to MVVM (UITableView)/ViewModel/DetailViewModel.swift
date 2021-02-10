@@ -9,6 +9,7 @@ import Foundation
 
 class DetailViewModel : DetailViewModelType {
     
+    
     private var profile : Profile
     
     var description: String {
@@ -18,4 +19,6 @@ class DetailViewModel : DetailViewModelType {
     init(profile : Profile) {
         self.profile = profile
     }
+    
+    var age: Box<String?> = Box(nil)
 }
